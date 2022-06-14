@@ -29,7 +29,7 @@ function Footer() {
             <img src="./images/nakagawa.svg" alt="E-logo" className="navbar-icon" />
             </a>
           </div>
-          <small className='website-rights'>NAKAGAWA © 2020</small>
+          <small className='website-rights'>E . NAKAGAWA © 2022</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'

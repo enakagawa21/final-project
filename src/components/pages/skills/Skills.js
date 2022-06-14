@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import "./Skills.css";
+// import "./Skills.css";
 
 function Skills({
 	lightBg,

@@ -24,8 +24,7 @@
 	max-width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 50px;
-	padding-left: 50px;
+
 }
 
 .navbar-logo {
@@ -44,10 +43,10 @@
 .nav-menu {
 	display: flex;
 	align-items: center;
-	justify-content: flex;
 	list-style: none;
 	text-align: center;
 	justify-content: start;
+	margin:100px;
 }
 
 .nav-item {
@@ -56,10 +55,13 @@
 	align-items: center;
 	height: 80px;
 	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;
+	width:125px;
 }
 
 .nav-item:hover {
 	border-bottom: 2px solid red;
+	border-top: 2px solid red;
 }
 
 .nav-links {
@@ -157,5 +159,8 @@
 	}
 	.navbar-icon{
 		visibility: hidden;
+	}
+	.navbar{
+		height: 80px;
 	}
 }

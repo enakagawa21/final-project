@@ -1,48 +1,47 @@
 export const homeObjOne = {
 	lightBg: false,
-	lightText: true,
-	lightTextDescription: true,
+	lightText: false,
+	lightTextDescription: false,
 	topLine: null,
-	headline: "Eric Nakagawa",
-	description:
-		"Front End Developer | ReactJS | Graphic Design",
-	buttonLabel: "GetStarted",
+	headline: 'Eric Nakagawa',
+	description: 'Front End Developer  || Rect Js  ||  Graphic Design ',
+	buttonLabel: null,
 	imgStart: "",
 	img: "images/nakagawa.svg",
-	alt: "Credit card",
+	alt: null,
 };
 export const homeObjTwo = {
-	lightBg: false,
-	lightText: true,
-	lightTextDesc: true,
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
 	topLine: null,
 	headline: 'About Me',
 	description:
-	  'I am a front end developer from Sacramento CA with a background in graphic design.  I am very passionate about using my personal artistic skills to design enaging and user friendly interfaces. Coding has become a love of mine and I hope to secure a position in the near future that will alow my to advance my skills.',
+	  'I am a front end developer from Sacramento, CA with a background in graphic design.  I am very passionate about using my personal artistic skills to design enaging and user friendly interfaces. <br> Coding has become a love of mine and I hope to secure a position in the near future that will alow my to advance my skills.',
 	buttonLabel: 'Functional Resume',
 	imgStart: 'start',
 	img: 'images/img-13.jpeg',
-	alt: null
+	alt: null,
    };
    
    export const homeObjThree = {
-	lightBg: false,
-	lightText: true,
-	lightTextDesc: true,
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
 	topLine: null,
 	headline: 'Skills',
 	description:
-	  'Experience in front end development using HTML, CSS, and React JS. Proficient in Adobe Illustrator, Photoshop, and InDesign.  My graphic arts background helps me design artistic and engaging user interface solutions for any application. <br>  I have some experience using Node.js, Express.js, and MySQL Workbench. I also have basic knowledge of Visual Studio Code, Github, and Postman ',
+	  'Experience in front end development using HTML, CSS, and React JS. Proficient in Adobe Illustrator, Photoshop, and InDesign.  My graphic arts background helps me design artistic and engaging user interface solutions for any application. <br> I have basic knowledge of Visual Studio Code and some experience using Node.js, Express.js, and MySQL Workbench.',
 	buttonLabel: 'Learn More',
 	imgStart: '',
 	img: 'images/skillChart-01.svg',
 	alt: 'skillChart'
    };
-   
+    
    export const homeObjFour = {
 	lightBg: false,
-	lightText: true,
-	lightTextDesc: true,
+	lightText: false,
+	lightTextDesc: false,
 	topLine: null,
 	headline: 'Contact Me',
 	description:

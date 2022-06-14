@@ -3,6 +3,16 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Hero1.css";
 
+
+import {
+	FaFacebook,
+	FaInstagram,
+	FaYoutube,
+	FaTwitter,
+	FaLinkedin
+   } from 'react-icons/fa';
+
+
 function Hero1({
 	lightBg,
 	topLine,
@@ -46,6 +56,54 @@ function Hero1({
 								>
 									{description}
 								</p>
+								<div className='social-icons'>
+            <a
+              className='social-icon-link'
+              href='/'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <FaFacebook />
+            </a>
+            <a
+              className='social-icon-link'
+              href='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <FaInstagram />
+            </a>
+            <a
+              className='social-icon-link'
+              href={
+                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+              }
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <FaYoutube />
+            </a>
+            <a
+              className='social-icon-link'
+              href='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <FaTwitter />
+            </a>
+            <a
+              className='social-icon-link'
+              to='https://www.linkedin.com/in/enakagawa21/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+
+
+
+
 								{/* <Link to={"/sign-up"}>
 									<Button buttonSize="btn--wide" buttonColor="red">
 										{buttonLabel}
